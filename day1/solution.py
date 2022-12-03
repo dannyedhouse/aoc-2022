@@ -13,6 +13,3 @@ with open('input.txt') as f:
 
 print(max(most_calories.values()))
 print(max(most_calories, key=most_calories.get))
-
-
-        
